@@ -1,0 +1,13 @@
+.padre {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  border: 1px solid rgba(10, 1, 1, 0.4); }
+  .padre.rojo {
+    background: crimson; }
+  .padre.verde {
+    background: #42d35a; }
+  .padre .hije {
+    width: 60%;
+    height: 60%;
+    background: darkgrey; }

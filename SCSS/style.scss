@@ -1,0 +1,18 @@
+$border-color: rgba(10, 1, 1, 0.4);
+.padre{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    border: 1px solid $border-color;
+    &.rojo{
+        background: crimson;
+    }
+    &.verde{
+        background: #42d35a;
+    }
+    .hije{
+        width:60%;
+        height: 60%;
+        background: darkgrey;
+    }
+}
