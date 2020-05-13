@@ -1,0 +1,19 @@
+@import "./variables";
+@import "./header";
+@import "./mini-cards";
+
+body{
+    margin: 15px;
+}
+
+.card{
+    display:flex;
+    height: 600px;
+    width: 800px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+h1,p,h3,ul{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18;
+}

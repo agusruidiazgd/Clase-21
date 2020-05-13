@@ -1,0 +1,39 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+    color:$swatch_1;
+    background-color: $swatch_5;
+    border-radius: 10px 0px 0px 10px;
+    width: 33%;
+    .lista{
+        color:$swatch_2;
+        display: block;
+        padding-left: 30px;
+        .lista-hija{
+            display: block;
+            font-weight: bold;
+            font-size: 10;
+            padding: 5px 0px 5px 0px;
+        }
+        .fas{
+            padding-right: 6px;
+            font-size: 20;
+        }
+    }
+    .header1{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+        .perfil{
+            border-radius:$borde-foto;
+            margin: 60px $margen-foto $margen-foto $margen-foto ;
+            width: $size-foto;
+            height: $size-foto;
+        }
+        h1{
+            width: 60%;
+            margin:60px 0px 0px 0px;
+        }
+    }
+}

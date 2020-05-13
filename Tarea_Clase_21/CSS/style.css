@@ -1,0 +1,44 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  color: #f3f4f8;
+  background-color: #f2959e;
+  border-radius: 10px 0px 0px 10px;
+  width: 33%; }
+  .header .lista {
+    color: #d4dae6;
+    display: block;
+    padding-left: 30px; }
+    .header .lista .lista-hija {
+      display: block;
+      font-weight: bold;
+      font-size: 10;
+      padding: 5px 0px 5px 0px; }
+    .header .lista .fas {
+      padding-right: 6px;
+      font-size: 20; }
+  .header .header1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px; }
+    .header .header1 .perfil {
+      border-radius: 50%;
+      margin: 60px 15px 15px 15px;
+      width: 50px;
+      height: 50px; }
+    .header .header1 h1 {
+      width: 60%;
+      margin: 60px 0px 0px 0px; }
+
+body {
+  margin: 15px; }
+
+.card {
+  display: flex;
+  height: 600px;
+  width: 800px;
+  border-radius: 10px 10px 10px 10px; }
+
+h1, p, h3, ul {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 18; }
